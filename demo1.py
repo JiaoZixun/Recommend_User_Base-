@@ -44,6 +44,9 @@ def Create_Sim_Matrix(item_users):
         for v in range(1,944):
             if u == v:
                 continue
+            if math.sqrt(N[u]*N[v]) == 0:
+                W[u][v]=0.0
+                continue
             W[u][v]=C[u][v]/math.sqrt(N[u]*N[v])
     #print(W)
     outfile = "F:\\协同过滤推荐算法\\基于用户\\user_sim.csv"
