@@ -10,22 +10,22 @@
 
 用户评分矩阵
 
-![1](F:\协同过滤推荐算法\基于用户\img\1.jpg)
+![1](https://github.com/JiaoZixun/Recommend_User_Base-/blob/master/img/1.jpg)
 
 项目用户矩阵（用户评分矩阵转置）
 
 用户相似度
 
-![2](F:\协同过滤推荐算法\基于用户\img\2.jpg)
+![2](https://github.com/JiaoZixun/Recommend_User_Base-/blob/master/img/2.jpg)
 
 在demo2中利用用户间的相似度，计算用户v对电影i的感兴趣值。
 
 推荐，[电影id，感兴趣值]
 
-![3](F:\协同过滤推荐算法\基于用户\img\3.png)
+![3](https://github.com/JiaoZixun/Recommend_User_Base-/blob/master/img/3.png)
 
 在demo3中将用户对不同电影的感兴趣值进行排序，进行Top-N推荐，选取前N个作为推荐列表。
 
 Top-N推荐，[电影id，感兴趣值]
 
-![image-20210822182948917](C:\Users\Jiao1\AppData\Roaming\Typora\typora-user-images\image-20210822182948917.png)
+![4](https://github.com/JiaoZixun/Recommend_User_Base-/blob/master/img/4.jpg)
